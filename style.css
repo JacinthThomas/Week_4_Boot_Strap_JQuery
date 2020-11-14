@@ -1,0 +1,129 @@
+.alighnCenter
+
+
+
+.redBox {
+    background: red;
+}
+
+
+
+
+.blueBox {
+    background: blue;
+    border: dashed;
+}
+
+
+
+.greenBox
+
+
+
+.bigBoxes div {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+.headers {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.title_1 {
+    text-decoration: underline ;
+    text-align: center;
+}
+
+
+.boxed {
+    border:1px solid green;
+    height: 13em;
+    width: 14em;
+    
+}
+
+
+.red_box {
+    background-color: red;
+    border:5px solid black;
+}
+
+.blue_box {
+    background-color: blue;
+    border:5px dashed yellow;
+}
+
+.green_box {
+    background-color: lawngreen;
+    border:5px solid plum;
+}
+
+h6{
+    text-align: center;
+    margin: 20px;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 35px;
+}
+.boxes div{
+    height: 200px;
+    margin: 0 30px;
+}
+
+.changeB{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px;
+}
+.hideB{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px;
+}
+
+.hideBut{
+    background: grey;
+text-align: center;
+padding: 6px;
+margin: 0 10px;
+justify-content: center;
+}
+
+.changeBut div{
+background: grey;
+text-align: center;
+padding: 6px;
+margin: 0 10px;
+justify-content: center;}
+
+/* .resetcol
+{
+    background: grey;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 10px;
+    justify-content: center;   
+} */
+
+
+.showall{
+    background: grey;
+    padding: 10px;
+    margin: 10px 10px;
+    justify-content: center; 
+}
+
+.hidden {
+    background-color: none;
+}
