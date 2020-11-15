@@ -6,6 +6,8 @@ $(document).ready(function(){
 
     $('.changeBtn2').on('click',function() {
         $('.blue_box').css('background-color', 'yellow');
+        $('.blue_box').css('border', 'dotted', 'red');
+
     });
     
     $('.changeBtn3').on('click',function() {
@@ -49,7 +51,7 @@ $('.resetcol').on('click',function() {
 
 //Show All
 
-$('.showall_A').on('click',function() {
+$('.showall_1').on('click',function() {
     $('.red_box, .blue_box, .green_box').show();
 });
 
@@ -57,3 +59,7 @@ $('.showall_A').on('click',function() {
 
 
 ///Empty space between
+
+$(document).ready(function(){
+    $('.hidden').hide('background-color', 'white')
+});

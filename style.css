@@ -1,24 +1,10 @@
-.alighnCenter
-
-
-
-.redBox {
-    background: red;
+body {
+    margin-top: 14em;
 }
 
-
-
-
-.blueBox {
-    background: blue;
-    border: dashed;
+.H1 {
+text-align: center;
 }
-
-
-
-.greenBox
-
-
 
 .bigBoxes div {
     height: 200px;
@@ -83,20 +69,23 @@ h4{
     text-decoration: underline;
     text-align: center;
     margin: 20px;
+    cursor: pointer;
 }
 .hideB{
     color: blue;
     text-decoration: underline;
     text-align: center;
     margin: 20px;
+    cursor: pointer;
 }
 
-.hideBut{
+.hideBut div{
     background: grey;
 text-align: center;
 padding: 6px;
 margin: 0 10px;
 justify-content: center;
+cursor: pointer;
 }
 
 .changeBut div{
@@ -104,26 +93,42 @@ background: grey;
 text-align: center;
 padding: 6px;
 margin: 0 10px;
-justify-content: center;}
+justify-content: center;
+cursor: pointer;}
 
-/* .resetcol
+.resetcol_1
 {
     background: grey;
     border: 1px solid black;
     text-align: center;
     padding: 10px;
-    margin: 10px 10px;
-    justify-content: center;   
-} */
-
-
-.showall{
-    background: grey;
-    padding: 10px;
-    margin: 10px 10px;
-    justify-content: center; 
+    margin: 20px 10px;
+    justify-content: center;
+    cursor: pointer;   
 }
 
-.hidden {
-    background-color: none;
+.showall_1 div{
+    background: grey;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 10px;
+    justify-content: center;
+    cursor: pointer;   
+}
+
+
+.showall div .yea {
+    background-color: white;
+    height: auto;
+}
+
+
+.showall_1 div .hidden{
+    color: white;
+    background: white;
+    padding:20 px solid white;
+    border: white;
+    visibility: hidden;
+
 }
