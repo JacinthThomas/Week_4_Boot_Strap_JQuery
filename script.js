@@ -16,6 +16,7 @@ $(document).ready(function(){
     
     $('.changeAll').on('click',function() {
         $('.green_box, .blue_box, .red_box').css('background-color', 'black');
+        $('.blue_box').css('background-color', 'teal');
     });
 
 
