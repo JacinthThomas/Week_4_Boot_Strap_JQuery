@@ -108,8 +108,6 @@ cursor: pointer;}
 }
 
 .showall_1 div{
-    background: grey;
-    border: 1px solid black;
     text-align: center;
     padding: 10px;
     margin: 20px 10px;
@@ -118,9 +116,11 @@ cursor: pointer;}
 }
 
 
-.showall div .yea {
-    background-color: white;
-    height: auto;
+.showall {
+    background-color: grey;
+    padding: grey;
+    margin: 0;
+    padding: 0;
 }
 
 
